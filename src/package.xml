@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewAppPackage</fullName>
+    <types>
+        <members>New_App</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Invoice_New__c.Invoice_Date__c</members>
+        <members>Invoice_New__c.Invoice_Number__c</members>
+        <members>Invoice_New__c.Remarks2__c</members>
+        <members>Invoice_New__c.Remarks__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Invoice_New__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Invoice_New__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Invoice_New__c-Invoice_New Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Invoice_New__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>31.0</version>
+</Package>
