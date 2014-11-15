@@ -1,0 +1,6 @@
+<apex:page standardController="Students__c">
+Student Name     : {!Students__c.StudentName__c}
+
+
+
+</apex:page>

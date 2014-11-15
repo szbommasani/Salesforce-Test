@@ -2,6 +2,18 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>NewAppPackage</fullName>
     <types>
+        <members>myinvoice</members>
+        <members>testPDF</members>
+        <members>vfexercise1</members>
+        <members>vfexercise2</members>
+        <members>vfexercise3</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>HelloIndia</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
         <members>New_App</members>
         <name>CustomApplication</name>
     </types>
@@ -10,10 +22,16 @@
         <members>Invoice_New__c.Invoice_Number__c</members>
         <members>Invoice_New__c.Remarks2__c</members>
         <members>Invoice_New__c.Remarks__c</members>
+        <members>Students__c.ContactNo__c</members>
+        <members>Students__c.SParentName__c</members>
+        <members>Students__c.StudentAddress__c</members>
+        <members>Students__c.StudentName__c</members>
+        <members>Students__c.StudentNo__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Invoice_New__c</members>
+        <members>Students__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -22,10 +40,12 @@
     </types>
     <types>
         <members>Invoice_New__c-Invoice_New Layout</members>
+        <members>Students__c-StudentsList Layout</members>
         <name>Layout</name>
     </types>
     <types>
         <members>Invoice_New__c.All</members>
+        <members>Students__c.All</members>
         <name>ListView</name>
     </types>
     <version>31.0</version>
