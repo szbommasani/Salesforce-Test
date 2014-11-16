@@ -1,6 +1,7 @@
 <apex:page standardController="Students__c">
 Student Name     : {!Students__c.StudentName__c}
 Student No     : {!Students__c.StudentNo__c}
+Student Address:- {!Students__c.StudentAddress__c}
 
-
+  
 </apex:page>
